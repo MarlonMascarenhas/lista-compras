@@ -1,0 +1,87 @@
+#page-home {
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+#page-home .box {
+    margin: 80px auto;
+    padding: 35px;
+    max-width: 730px;
+    background: #ffffff;
+    border-radius: 8px;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro, .lista{
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.amount{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    
+}
+
+.field {
+    margin-right: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonIcon{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.field input[type=text],
+.amount input[type=number] {
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+
+.Title-List{
+    display: flex;
+    align-items: center;
+}
+
+.buttonIconThash{
+    margin-left: auto
+}
+
+.linha-horizontal {
+    background: #fff  no-repeat scroll center;
+    margin-left: 15em;
+    margin-right: 15em;
+    width:50em;
+    height:.05em;
+}
+
+
+.traco {
+    position: absolute;
+    color: rgb(0, 255, 127);
+    background-color: rgb(0, 255, 127);
+    height: 2px;
+    width: 100%;
+    margin-top: 41.5px;
+    border-color: rgb(0, 255, 127);
+}
+
+.noneDisp{
+    display: none;
+}
